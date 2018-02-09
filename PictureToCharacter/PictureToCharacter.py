@@ -26,7 +26,7 @@ ASSIIC_CHAR = list("12q$e@x ")
 def i2(r, g, b):
     color_len = []
     for i in COLORS_RGB:
-        temp = (i[0] - r)*(i[0] - r) + (i[1] - g)*(i[1] - g) + (i[2] - b)*(i[2] - b)
+        temp = (i[0] - r)**2 + (i[1] - g)**2 + (i[2] - b)**2
         color_len.append(temp)
     return color_len.index(min(color_len))
 
