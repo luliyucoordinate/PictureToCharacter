@@ -23,7 +23,7 @@ you can use `--width` and `--height` to adjust the picture size.Example
 python PictureToCharacter.py picture.png --width 20 --height 20
 ```
 
- Also,you can get the `.txt` of the character painting use `-0`or`--output`
+ Also,you can get the `.txt` of the character painting use `-o`or`--output`
 
 ```shell
 python PictureToCharacter.py picture.png --width 20 --height 20 --output picture.txt
