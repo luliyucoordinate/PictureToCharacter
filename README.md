@@ -9,9 +9,17 @@ Make picture  transformed into a character painting
 <img src="http://wx3.sinaimg.cn/mw690/af2d2659gy1foa4e4p1uuj20mp0pagm7.jpg"  width = "300" height = "200">
 </center>
 
-#### How to use
+You should use the command to install some requirements for run
 
-please put the picture which you want to transformed in the dir`PictureToCharacter\`
+
+```shell
+pip install -r requirements.txt
+```
+
+### How to use
+
+
+please put the picture which you want to transformed in the dir`PictureToCharacter\picture.png`
 
 ```shell
 python PictureToCharacter.py picture.png
