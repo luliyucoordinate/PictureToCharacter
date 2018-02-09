@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <Name>PictureToCharacter</Name>
     <RootNamespace>PictureToCharacter</RootNamespace>
+    <InterpreterId>{2f239bf3-bd8f-41a1-872e-294370ef48ba}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +25,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PictureToCharacter.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2f239bf3-bd8f-41a1-872e-294370ef48ba}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
