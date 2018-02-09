@@ -42,7 +42,8 @@ if __name__ == '__main__':
     for i in range(HEIGHT):
         for j in range(WIDTH):
             ch, w = get_char(*pic.getpixel((j, i)))
-            print(COLORS[w]+ch*3, end='')
+            ch = COLORS[w]+ch*3
+            print(ch, end='')
             txt += ch
         print('\n')
         txt += '\n'

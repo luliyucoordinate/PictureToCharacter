@@ -29,3 +29,10 @@ python PictureToCharacter.py picture.png --width 20 --height 20
 python PictureToCharacter.py picture.png --width 20 --height 20 --output picture.txt
 ```
 
+then,you can use `picture.txt`.Look like this
+
+```python
+str_c = '''the content of picture.txt'''
+print(str_c)
+```
+
