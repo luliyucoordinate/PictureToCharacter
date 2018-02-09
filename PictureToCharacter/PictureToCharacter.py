@@ -21,7 +21,7 @@ OUTPUT = args.output
 
 COLORS = [Fore.BLACK, Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
 COLORS_RGB = [(0,0,0), (255,0,0), (0, 255,0), (255,255,0), (0,0,255), (255,0,255), (0,255,255), (255,255,255)]
-ASSIIC_CHAR = list("123q$e@x")
+ASSIIC_CHAR = list("12q$e@x ")
 
 def i2(r, g, b):
     color_len = []
